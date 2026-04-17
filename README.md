@@ -13,21 +13,13 @@ O objetivo principal é permitir que alunos sugiram demandas necessárias, enqua
 * **Gamificação e Progressão:** * Usuários ganham XP geral ao concluir atividades.
     * Sistema de especialização: ganho de XP específico por área (Ex: *Nível 5 em Eletrônica*, *Nível 3 em Modelagem 3D*).
 
-##  Arquitetura do Sistema
+## Tecnologias Utilizadas
+* **Front-end:** HTML5, CSS3 e JavaScript.
+* **Back-end e API:** Google Apps Script (GAS).
+* **Persistência de Dados:** Google Sheets.
 
-O projeto adota uma arquitetura separada em módulos principais:
+## Estrutura do Projeto e Documentação
+A documentação técnica e os artefatos de planejamento encontram-se no diretório `/docs`, incluindo Especificação de Requisitos, Dicionário de Dados e Casos de Uso.
 
-* **Frontend (Web App):** Interface do usuário onde os alunos visualizam seus perfis de XP e tarefas, e os admins acessam o painel de controle.
-* **Backend (API):** Servidor responsável pelas regras de negócio, cálculo matemático de XP, sistema de permissões (Roles) e comunicação com o banco de dados.
-* **Banco de Dados:** Armazenamento das entidades principais (`users`, `tasks`, `xp_log`, `areas`, `roles`).
-
-##  Estrutura do Repositório
-
-```text
-labsys/
-├── docs/                # Documentação do projeto
-│   ├── requisitos.md    # Regras de negócio, roles, fluxos
-│   ├── modelo-dados.md  # Entidades do banco e relacionamentos
-│   └── wireframes/      # Imagens das telas planejadas
-├── frontend/            # Código-fonte do site (Interface)
-└── backend/             # Código-fonte da API e regras de servidor
+## Diretrizes para Colaboradores
+Para compreender o fluxo de submissão de código e criação de Issues, consulte o documento `CONTRIBUTING.md`.
