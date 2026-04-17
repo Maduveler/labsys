@@ -1,0 +1,18 @@
+# Diretrizes de Contribuição - Labsys
+
+Este documento define o protocolo de colaboração para o projeto Labsys.
+
+## 1. Gestão de Demandas (Issues)
+Toda alteração no projeto deve ser precedida por uma **Issue**. O desenvolvimento só deve iniciar após a Issue ser validada pela coordenação do projeto.
+
+## 2. Política de Ramificação (Branching Strategy)
+O acesso à ramificação principal (`main`) é restrito. Todas as contribuições devem ocorrer em ramificações auxiliares:
+* `feature/nome-breve`: Para novas funcionalidades.
+* `fix/nome-breve`: Para correção de falhas.
+* `docs/nome-breve`: Para documentação.
+
+## 3. Fluxo de Trabalho e Integração
+1. **Criação da Branch:** A partir da `main` atualizada.
+2. **Pull Request (PR):** Ao finalizar, abra um PR para a `main`.
+3. **Revisão de Código (Code Review):** O PR será analisado por ao menos um revisor da equipe.
+4. **Merge:** O merge só será realizado após a aprovação formal no GitHub.
